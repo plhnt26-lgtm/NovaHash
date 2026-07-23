@@ -159,3 +159,55 @@ margin-bottom:5px;
 color:#6C3BFF;
 font-weight:600;
 }
+/* LOGIN */
+
+.login-page{
+min-height:100vh;
+display:flex;
+flex-direction:column;
+justify-content:center;
+}
+
+.logo-box{
+text-align:center;
+margin-bottom:40px;
+}
+
+.logo-box h1{
+font-size:42px;
+color:#6C3BFF;
+font-weight:800;
+}
+
+.logo-box p{
+color:#777;
+margin-top:10px;
+}
+
+.login-card{
+background:white;
+padding:30px;
+border-radius:25px;
+box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.login-card h2{
+margin-bottom:8px;
+}
+
+.login-card p{
+color:#888;
+margin-bottom:20px;
+}
+
+.login-card input{
+width:100%;
+padding:15px;
+border:1px solid #ddd;
+border-radius:12px;
+margin-bottom:15px;
+font-size:15px;
+}
+
+.remember{
+display:flex;
